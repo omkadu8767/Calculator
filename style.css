@@ -1,0 +1,80 @@
+
+.main{
+    width:100vw;
+    height: 100vh;
+    border-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background-color: rgb(128, 128, 128);
+    border-radius: 2rem;
+    box-shadow: 2px 2px 5px black;
+    width: 20rem;
+    height: 30rem;
+    border: 2px solid black;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin: 3rem;
+    box-shadow: 3px 3px 5px yellow;
+}
+
+.display input{
+    outline: auto;
+    width: 95%;
+    border: none;
+    border-radius: 1rem;
+    height: 2rem;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+}
+.button{
+    width: 8rem;
+    padding: 1rem;
+    margin: 7px;
+
+}
+#operation{
+    margin: 2rem;
+    background-color: indianred;
+    margin-left: 110px;
+    box-shadow: 5px 5px 5px black;
+    padding: 1rem ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+#add{
+    background-color: violet;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 8px;
+    box-shadow: 5px 5px 5px black;
+    width: 50px;
+    padding: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .btn{
+    margin-left: 8px;
+    background-color: aqua;
+    box-shadow: 5px 5px 5px black;
+    width: 50px;
+    padding: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30%;
+    
+ }
+ #my{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
